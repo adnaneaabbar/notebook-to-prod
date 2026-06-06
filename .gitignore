@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Artefacts générés par les démos (recréés par setup.sh / train_model.py)
+*.pkl
+mlruns/
+mlflow.db
